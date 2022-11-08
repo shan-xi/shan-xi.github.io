@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--script async src="https://www.googletagmanager.com/gtag/js?id=UA-177004533-1"></script-->
+    <!--script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-177004533-1');
+    </script-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Shan-Xi</title>
+    <link rel="stylesheet" href="./css/site.min.css?v=27" lazyload/>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" lazyload/>
+    <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet" lazyload/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet" lazyload/>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet" lazyload/>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet" lazyload/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384–5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" lazyload/>
+    <link rel="stylesheet" href="./css/template.min.css" lazyload/>
+    <link rel="stylesheet" href="./css/slideshow.min.css" lazyload/>
+    <link rel="stylesheet" href="./css/resets/normalize.min.css" lazyload/>
+    <link rel="stylesheet" href="./css/resets/reset.min.css" lazyload/>
+    <link rel="stylesheet" href="./css/resets/typography.min.css" lazyload/>
+    <link rel="stylesheet" href="./css/base.min.css" lazyload/>
+    <link rel="shortcut icon" href="./img/favicon.ico"/>
+    <link rel="bookmark" href="./img/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <!--link rel="manifest" href="./img/site.webmanifest"-->
+<style>
+ul {
+    list-style-type: none;
+    margin-left: 5px;
+}
+
+ul li {
+    margin-bottom: 12px;
+    margin-left: -10px;
+    display: flex;
+    align-items: start;
+}
+
+ul li::before {
+    color: transparent;
+    font-size: 1px;
+    content: " ";
+    margin-left: -38.3em;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    background-color: orange;
+    -webkit-mask-image: url("./img/check-circle-solid.svg");
+    -webkit-mask-size: cover;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.sub-project{
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+</style>
+</head>
+<body>
+    <div class="loading" style="background-color: rgb(0, 0, 0);height: 1000px;width:100%;">
+        <div class="center">
+        <img alt="" class="" role="presentation" 
+        src="./img/load-loading.gif">
+        </div>
+    </div>
+    <div class="site" style="display: none;">
+    <header class="header">
+        <div class="logo" id="logo">
+            <span id="name">Shan Xi</span> <i class="my-icon fas fa-code"></i>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="inner">
+                <head>
+                    <p>Hello, welcome!</p>
+                    <h1>廖 善 璽</h1>
+                    <p>Software Engineer</p>
+                </head>
+            </div>
+        </section>
+        <section class="me wrapper style1">
+            <div class="inner">
+                <div class="flex flex-2">
+                    <div class="col col1">
+                        <div class="image round fit">
+                            <a href="#" class="link"><img src="./img/189752.jpg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col col2">
+                        <h1>About Me</h1>
+                        <p>Hi, I'm a software enginner. My Master's thesis focused on solving inventory optimization problems by building an algorithm and coding in Java, my first self-taught programming language. I have been working in the web applications area for 10 years. In this period, I have used Java, php and Python to build websites. I have experienced various systems such as logistics, international business, warehouse, e-commerce platform and promotional marketing platform. The system architecture includes traditional web, separation of frontend and backend, distributed microservices which are deployed to VM or cloud. 
+                            Recently, I am learning Golang, Docker and Goole Cloud Platform. 
+                            Machine learning is my favorite topic. In the futrue, I want to use AI skills in web area. Programming is so fun.</p>
+                        <div class="education">
+                            <h1>Education</h1>
+                            <h3 class="education-name">Taiwan AI Academy</h3>
+                            <p>Received an Honorable Mention for my project, Dec. 2019 - April. 2020</p>
+                            <h3 class="education-name">National Dong Hwa University</h3>
+                            <p>Graduate Institute of Logistics Management, Sep. 2007 - Feb. 2010</p>
+                            <h3 class="education-name">Tamkang University</h3>
+                            <p>Department of International Business, Sep. 2002 - Feb. 2006</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+            <h1>About My Works</h1>
+            <article class="company-experience">
+                <h2 class="company-name">Cathay Financial Holdings Co., Ltd.</h2>
+                <p class="job-name">Software Engineer (Java & Python)</p>
+                <p class="job-time">Sep. 2018 - Jun. 2022</p>
+                <div class="project">
+                <h3 class="project-name">Role Description</h3>
+                    <p>
+                    Web development is just one of my job responsibilities.
+                    Problem solving is also one of my skills.
+                    So, I often spend much time on communication between different departments and development teams.
+                    </p>
+                </div>
+                <div class="project">
+                    <div class="sub-project">
+                    <h3 class="project-name">Project 1. MyRewards Administration Platform (CMS)</h3>
+                    <p>This platform manages most of the contents in MyRewards App.
+                        It also manages data exchange between systems.
+                        Asynchronous distributed queue mechanism makes this platform more flexible.
+                        When doing a long run task, the client will never have a timeout problem.
+                        And more, through websockets the server can send messages to clients without page refresh.
+                        Extremely flexible authorization can match various permission usage scenarios.
+                        Totally dynamic scheduled job design can change the job status at runtime.
+                        It is a simple design but a powerful platform.
+                    </p>
+                    <div class="slideshow-container-1">
+                        <div class="slides-1 fade">
+                            <div class="numbertext">1 / 9</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_c_p1.png" alt="">
+                            </div>
+                            <div class="text">CMS: show data in listview from database</div>
+                        </div>
+                        <div class="slides-1 fade">
+                            <div class="numbertext">2 / 9</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_c_p2.png" alt="">
+                            </div>
+                            <div class="text">CMS: show a data detail view from database</div>
+                        </div>
+                        <div class="slides-1 fade">
+                            <div class="numbertext">3 / 9</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_c_p3.png" alt="">
+                            </div>
+                            <div class="text">CMS: platform function menu setting</div>
+                        </div>
+                        <div class="slides-1 fade">
+                            <div class="numbertext">4 / 9</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_c_p4.png" alt="">
+                            </div>
+                            <div class="text">CMS: scheduled task setting</div>
+                        </div>
+                        <div class="slides-1 fade">
+                            <div class="numbertext">5 / 9</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_c_p5.png" alt="">
+                            </div>
+                            <div class="text">CMS: async queue process results</div>
+                        </div>
+                        <div class="slides-1 fade">
+                            <div class="numbertext">6 / 9</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_c_p6.png" alt="">
+                            </div>
+                            <div class="text">CMS: celery monitor view</div>
+                        </div>
+                        <div class="slides-1 fade">
+                            <div class="numbertext">7 / 9</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_c_p7.png" alt="">
+                            </div>
+                            <div class="text">CMS: show a data editor view</div>
+                        </div>
+                        <div class="slides-1 fade">
+                            <div class="numbertext">8 / 9</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_c_p8.png" alt="">
+                            </div>
+                            <div class="text">CMS: queue usage and websockets notification</div>
+                        </div>
+                        <div class="slides-1 fade">
+                            <div class="numbertext">9 / 9</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_c_p9.png" alt="">
+                            </div>
+                            <div class="text">CMS: progress bar using queue and websockets</div>
+                        </div>
+                        <a class="prev" id="prev_c">&#10094;</a>
+                        <a class="next" id="next_c">&#10095;</a>
+                    </div>
+                    <h4 class="contribution">Key contributions</h4>
+                    <ul class="contribution-list">
+                        <li>Plan, design, develop, test, deploy and maintain by myself.</li>
+                        <li>Multi-threads using gunicorn.</li>
+                        <li>Asynchronous distributed message queue using celery.</li>
+                        <li>Server-side message push to client using websockets.</li>
+                        <li>Flexible account setting using role-based authorization design concept.</li>
+                        <li>Flexible and powerful large project structure using Flask.</li>
+                        <li>Unified data audit flow module using flask signals.</li>
+                        <li>Easy maintainable using a jinja template system.</li>
+                    </ul>
+                    <h4 class="stack">Tech stacks</h4>
+                    <ul class="stack-list">
+                        <li>Python3, Flask, Sqlalchemy, Javascript ES6, JQuery3, Bootstrap4, CSS, HTML, Git, Celery, PostgreSQL, AWS EC2, Azure Devops CI/CD, Heroku, Websockets, Selenium, Linux redhat, docker</li>
+                    </ul>
+                </div>
+                <div class="sub-project">
+                    <h3 class="project-name">Project 2. MyRewards Backend APIs</h3>
+                    <p>MyRewards frontend includes Android, iOS and Web. Backend provides APIs for them.
+                        My major contributions are E-invoice APIs and Push notification APIs.</p>
+                    <div class="slideshow-container-1">
+                        <div class="slides-4 fade">
+                            <div class="numbertext">1 / 1</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_a_p1.png" alt="">
+                            </div>
+                            <div class="text">Backend APIs Swagger: Push Notification APIs</div>
+                        </div>
+                        <div class="slides-4 fade">
+                            <div class="numbertext">2 / 2</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_a_p2.png" alt="">
+                            </div>
+                            <div class="text">Backend APIs Swagger: E-invoice APIs</div>
+                        </div>
+                        <a class="prev" id="prev_a">&#10094;</a>
+                        <a class="next" id="next_a">&#10095;</a>
+                    </div>
+
+                    <h4 class="contribution">Key contributions</h4>
+                    <ul class="contribution-list">
+                        <li>Provide e-invoice APIs for APP. Users can query e-invoice and register their mobile devices.</li>
+                        <li>Provide push notification APIs for APP. Users can check the push message list.</li>
+                        <li>Provide a push notification backend system, the market department can promote events through sending message push.</li>
+                        <li>Provide a dynamic scheduled system using Spring Framework.</li>
+                    </ul>
+                    <h4 class="stack">Tech stacks</h4>
+                    <ul class="stack-list">
+                        <li>Java, Spring Framework, Spring boot, Spring Cloud, Hibernate, Git, Azure DevOps CI/CD, Maven, Oracle, Redis, Apache, OpenShift, Junit, postman</li>
+                    </ul>
+                    <h3 class="project-name">Project 3. Auto Tagging POC</h3>
+                    <p>The main purpose of this project is auto-tagging by customers' consumption details.
+                        This is an NLP classification problem.
+                        I achieve auto-tagging by using a deep learning model - Bidirectional LSTM.
+                        Using kivy to encapsulate all model details.
+                        You can predict and train models on this GUI.
+                        To enhance accuracy and a balanced dataset, I also crawl a lot of data on other websites.                        
+                    </p>
+                    <div class="slideshow-container-2">
+                        <div class="slides-2 fade">
+                            <div class="numbertext">1 / 4</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_auto_tagging_p1.png" alt="">
+                            </div>
+                            <div class="text">Auto-tagging: Single Prediction</div>
+                        </div>
+                        <div class="slides-2 fade">
+                            <div class="numbertext">2 / 4</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_auto_tagging_p2.png" alt="">
+                            </div>
+                            <div class="text">Auto-tagging: Batch Prediction</div>
+                        </div>
+                        <div class="slides-2 fade">
+                            <div class="numbertext">3 / 4</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_auto_tagging_p3.png" alt="">
+                            </div>
+                            <div class="text">Auto-tagging: Model Training</div>
+                        </div>
+                        <div class="slides-2 fade">
+                            <div class="numbertext">4 / 4</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_auto_tagging_p4.png" alt="">
+                            </div>
+                            <div class="text">Auto-tagging: Deep Learning Training Process</div>
+                        </div>
+                        <a class="prev" id="prev_auto_tag">&#10094;</a>
+                        <a class="next" id="next_auto_tag">&#10095;</a>
+                    </div>
+
+                    <h4 class="contribution">Key contributions</h4>
+                    <ul class="contribution-list">
+                        <li>Trained models can be used in classifying the customers' info into different groups automatically.</li>
+                        <li>Develop a desktop app to predict label and train models.</li>
+                        <li>The keras model core can be embedded into the system for recommendation.</li>
+                    </ul>
+                    <h4 class="stack">Tech stacks</h4>
+                    <ul class="stack-list">
+                        <li>Tensorflow, Keras, Python, Kivy, LSTM, NLP, Deep Learning</li>
+                    </ul>
+                </div>
+                <div class="sub-project">
+                    <h3 class="project-name">Project 4. CMS Desktop Apps Version</h3>
+                    <p>It's a cross-platform desktop application that provides cms services with backend api.</p>
+                    <div class="slideshow-container-2">
+                        <div class="slides-3 fade">
+                            <div class="numbertext">1 / 2</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_xicms_p1.png" alt="">
+                            </div>
+                            <div class="text">CMS Desktop App: Download Push Message Status</div>
+                        </div>
+                        <div class="slides-3 fade">
+                            <div class="numbertext">2 / 2</div>
+                            <div class="image fit carousel">
+                                <img src="./img/Compressed_and_resized_xicms_p2.png" alt="">
+                            </div>
+                            <div class="text">CMS Desktop App: File Chooser</div>
+                        </div>
+                        <a class="prev" id="prev_xicms">&#10094;</a>
+                        <a class="next" id="next_xicms">&#10095;</a>
+                    </div>
+
+                    <h4 class="contribution">Key contributions</h4>
+                    <ul class="contribution-list">
+                        <li>An alternative way to manage the content of the app.</li>
+                        <li>A kind of headless CMS using backend APIs.</li>
+                    </ul>
+                    <h4 class="stack">Tech stack</h4>
+                    <ul class="stack-list">
+                        <li>Java, Swing</li>
+                    </ul>
+                    <h3 class="project-name">Project 5. Machine Learning Lecturer</h3>
+                    <p>I wrote a basic machine learning introduction. The contents include classic ML, DL and many coding examples</p>
+                    <a href="https://docs.google.com/presentation/d/1oS5H5sg3oYR98hgekwHNnEdzx1C15k1g48NIZPSSdeU/edit?usp=sharing" target="_blank">
+                        <span class="link-btn-1">ML / DL Tutorial Link</span>
+                    </a>
+                    <h4 class="contribution">Key contributions</h4>
+                    <ul class="contribution-list">
+                        <li>Teach colleagues the concept of ML/DL and how to code in it.</li>
+                    </ul>
+                </div>
+                </div>
+            </article>
+            <article class="company-experience">
+                <h2 class="company-name">udnfunlife Co., Ltd.</h2>
+                <p class="job-name">Software Engineer (Java)</p>
+                <p class="job-time">Mar. 2017 - May. 2018</p>
+                <div class="project">
+                <div class="sub-project">
+                <h3 class="project-name">Project 1. uDesign online shop</h3>
+                <p>This is an e-commerce platform that focuses on telnet designers' products.</p>
+                <h4 class="contribution">Key contributions</h4>
+                <ul class="contribution-list">
+                    <li>Improve the performance of frontend and backend programs.</li>
+                    <li>Develop a cross-border sales module.</li>
+                    <li>Exchange data with an outside system.</li>
+                    <li>Develop a web page for membership recruitment.</li>
+                    <li>Create business logic documentation and coding guidelines.</li>
+                    <li>Build a new generation administration website.</li>
+                </ul>
+                <h4 class="stack">Tech stacks</h4>
+                <ul class="stack-list">
+                    <li>Spring2.x/4.x, Spring MVC, Struts1.x, iBatis/Mybatis, Java, Servlet/JSP, Oracle/MySql, JS, CSS, HTML, JBoss, SVN, git</li>
+                </ul>
+                </div>
+                </div>
+            </article>
+            <article class="company-experience">
+                <h2 class="company-name">UITOX Co., Ltd.</h2>
+                <p class="job-name">Backend Developer (PHP)</p>
+                <p class="job-time">Apr. 2014 - Sep. 2016</p>
+                <div class="project">
+                <div class="sub-project">
+                <h3 class="project-name">Project 1. Warehouse/Logistics System</h3>
+                <p>
+                    The Warehouse/Logistics system is the primary kernel of our e-commerce platform.
+                    Suppliers' stocks and product logistics are managed by this system.                    
+                </p>
+                <h4 class="contribution">Key contributions</h4>
+                <ul class="contribution-list">
+                    <li>Maintain, develop and test stock process modules including inbound, outbound and data exchange with logistics providers.</li>
+                    <li>Maintain, develop and test backend APIs.</li>
+                    <li>Improve the job execution time of the inventory replenishment module from several hours to half an hour.</li>
+                </ul>
+                <h4 class="stack">Tech stacks</h4>
+                <ul class="stack-list">
+                    <li>PHP5, Oracle SQL, Git, CodeIgniter.</li>
+                </ul>
+                </div>
+                <div class="sub-project">
+                <h3 class="project-name">Project 2. Supplier administration website</h3>
+                <p>
+                    This website is for suppliers to manage their stocks and products.
+                </p>
+                <h4 class="contribution">Key contributions</h4>
+                <ul class="contribution-list">
+                    <li>Develop inventory related functions on websites for vendors to control their stock status.</li>
+                    <li>Develop APIs for suppliers' systems to exchange data.</li>
+                </ul>
+                <h4 class="stack">Tech stacks</h4>
+                <ul class="stack-list">
+                    <li>PHP5, MySQL, JS, HTML, Git, CodeIgniter.</li>
+                </ul>
+                </div>
+                </div>
+            </article>
+            <article class="company-experience">
+                <h2 class="company-name">Evergreen International Corp.</h2>
+                <p class="job-name">Software Engineer(Java)</p>
+                <p class="job-time">Sep. 2010 - Sep. 2013</p>
+                <div class="project">
+                <div class="sub-project">
+                <h3 class="project-name">Project 1. Global Logistics System</h3>
+                <p>
+                    A system used to manage the whole flow of international business.
+                </p>
+                <h4 class="contribution">Key contributions</h4>
+                <ul class="contribution-list">
+                    <li>Develop new functions and modules such as booking, document, vessel routing and data exchange subsystems.</li>
+                    <li>Develop reports programs with PDF and XLS format.</li>
+                    <li>Develop various scheduled jobs.</li>
+                    <li>Study the potential side effects of upgrading libraries such as POI, JFreeChart.</li>
+                </ul>
+                <h4 class="stack">Tech stacks</h4>
+                <ul class="stack-list">
+                    <li>Java, Servlet/JSP, JS, HTML, Oracle SQL, PL/SQL, Tomcat, JBoss</li>
+                </ul>
+                </div>
+                <div class="sub-project">
+                <h3 class="project-name">Project 2. Terminals Operating System</h3>
+                <p>A system used to manage container status at the terminal.</p>
+                <h4 class="contribution">Key contributions</h4>
+                <ul class="contribution-list">
+                    <li>Develop and test system functions.</li>
+                    <li>Develop and test various statistical reports.</li>
+                </ul>
+                <h4 class="stack">Tech stacks</h4>
+                <ul class="stack-list">
+                    <li>Java, iReport, Spring Framework, Hibernate, Struts, JS, HTML, Oracle SQL, Tomcat, JBoss</li>
+                </ul>
+                <h3 class="project-name">Project 3. Evergreen Logistics Corp. Official Website.</h3>
+                <h4 class="contribution">Key contributions</h4>
+                <ul class="contribution-list">
+                    <li>Maintain the web page.</li>
+                    <li>Improve the performance by modifying the db connection pool mechanism.</li>
+                </ul>
+                <h4 class="stack">Tech stacks</h4>
+                <ul class="stack-list">
+                    <li>Java, JS, HTML, Oracle SQL, Tomcat, JBoss</li>
+                </ul>
+                </div>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="content">
+            <p>© 2022&nbsp;Shan Xi. All rights reserved.</p>
+        </div>
+    </footer>
+</div>
+</body>
+<script>
+"use strict"
+
+let someElement = document.querySelector('.banner');
+let element = document.querySelector('.header');
+
+window.onscroll = function() {
+    if(someElement.getBoundingClientRect().bottom <= 0) {
+        element.classList.add("reveal");
+    } else {
+        element.classList.remove("reveal");
+    }
+}
+
+let anchor = document.getElementById('name')
+let target = document.getElementById('logo')
+anchor.addEventListener('click', function (e) {
+  if (window.scrollTo) {
+    e.preventDefault()
+    window.scrollTo({'behavior': 'smooth', 'top': target.offsetTop})
+  }
+})
+</script>
+
+<script type="module">
+    import {ShowSlides} from "./js/slideshow.min.js?v=3";
+
+    let s1 = new ShowSlides({'slide_class':'slides-1'});
+    document.getElementById("next_c").addEventListener("click", function(){s1.plusSlides(1)});
+    document.getElementById("prev_c").addEventListener("click", function(){s1.plusSlides(-1)});
+
+    let s2 = new ShowSlides({'slide_class':'slides-2'});
+    document.getElementById("next_auto_tag").addEventListener("click", function(){s2.plusSlides(1)});
+    document.getElementById("prev_auto_tag").addEventListener("click", function(){s2.plusSlides(-1)});
+
+    let s3 = new ShowSlides({'slide_class':'slides-3'});
+    document.getElementById("next_xicms").addEventListener("click", function(){s3.plusSlides(1)});
+    document.getElementById("prev_xicms").addEventListener("click", function(){s3.plusSlides(-1)});
+
+    let s4 = new ShowSlides({'slide_class':'slides-4'});
+    document.getElementById("next_a").addEventListener("click", function(){s4.plusSlides(1)});
+    document.getElementById("prev_a").addEventListener("click", function(){s4.plusSlides(-1)});
+
+    window.onload = function() {
+        let element = document.querySelector(".loading");
+        element.remove();
+        let site = document.querySelector(".site");
+        site.style.display = 'block';
+    };
+
+</script>
+</html>
