@@ -15,21 +15,13 @@
     <meta charset="UTF-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <title>Shan-Xi</title>
-    <link href="./css/site.min.css?v=27" lazyload rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Lato" lazyload rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Mali" lazyload rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" lazyload rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" lazyload rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" lazyload rel="stylesheet"/>
-    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-          integrity="sha384–5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" lazyload
-          rel="stylesheet"/>
-    <link href="./css/template.min.css" lazyload rel="stylesheet"/>
-    <link href="./css/slideshow.min.css" lazyload rel="stylesheet"/>
-    <link href="./css/resets/normalize.min.css" lazyload rel="stylesheet"/>
-    <link href="./css/resets/reset.min.css" lazyload rel="stylesheet"/>
-    <link href="./css/resets/typography.min.css" lazyload rel="stylesheet"/>
-    <link href="./css/base.min.css" lazyload rel="stylesheet"/>
+    <link href="./css/site.min.css?v=27" rel="stylesheet"/>
+    <link href="./css/template.min.css" rel="stylesheet"/>
+    <link href="./css/slideshow.min.css" rel="stylesheet"/>
+    <link href="./css/resets/normalize.min.css" rel="stylesheet"/>
+    <link href="./css/resets/reset.min.css" rel="stylesheet"/>
+    <link href="./css/resets/typography.min.css" rel="stylesheet"/>
+    <link href="./css/base.min.css" rel="stylesheet"/>
     <link href="./img/favicon.ico" rel="shortcut icon"/>
     <link href="./img/favicon.ico" rel="bookmark"/>
     <link href="./img/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
@@ -77,15 +69,25 @@
 </head>
 
 <body>
-<div class="loading" style="background-color: rgb(0, 0, 0);height: 1000px;width:100%;">
-    <div class="center">
-        <img alt="" class="" loading="lazy" role="presentation" src="./img/load-loading.gif">
-    </div>
-</div>
-<div class="site" style="display: none;">
+<div class="site">
     <header class="header">
         <div class="logo" id="logo">
-            <span id="name">Shan Xi</span> <i class="my-icon fas fa-code"></i>
+            <span id="name">Shan Xi</span>
+            <svg
+                    fill="none"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+            >
+                <path
+                        d="M8 9L5 12L8 15M16 9L19 12L16 15M14 5L10 19"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                />
+            </svg>
         </div>
     </header>
     <main>
@@ -780,13 +782,6 @@
     let s4 = new ShowSlides({ 'slide_class': 'slides-4' });
     document.getElementById("next_a").addEventListener("click", function () { s4.plusSlides(1) });
     document.getElementById("prev_a").addEventListener("click", function () { s4.plusSlides(-1) });
-
-    window.onload = function () {
-        let element = document.querySelector(".loading");
-        element.remove();
-        let site = document.querySelector(".site");
-        site.style.display = 'block';
-    };
 
 </script>
 
