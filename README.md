@@ -62,3 +62,25 @@ The workflow uses the official GitHub Pages artifact deployment actions and the 
 ## Updating content
 
 Edit the `experiences`, `focusAreas`, and credential markup in `src/App.tsx`. Add image assets under `public/img/` and reference them with `/img/filename.ext`. Project descriptions and key contributions are restored from the original portfolio and the supplied October 2026 CV. Screenshot galleries use the original project-specific image files; click any screenshot to view it larger. The portrait image at `public/img/189752.jpg` is unchanged.
+
+
+## Bilingual portfolio (English / 繁體中文)
+
+The site includes an **EN / 繁體中文** switch in the top navigation. The selected language is saved in the browser's `localStorage`, so it is retained on the next visit. The existing page structure, project galleries, image paths under `/img/`, and image files are preserved.
+
+### Updating translations
+
+All UI and portfolio-content translations are in `src/App.tsx`, in the `translations` dictionary near the top of the file. The `t()` helper returns English by default and the Traditional Chinese translation when the language is set to `zh-TW`. To update wording, edit the matching dictionary value. If a new visible English phrase is added, add its Traditional Chinese translation to this dictionary and render the phrase through `t()`.
+
+### Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Create a production build with:
+
+```bash
+npm run build
+```

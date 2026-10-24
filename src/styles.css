@@ -77,3 +77,11 @@
 .floating-card strong{font-size:15px}
 .card-label,.visual-caption,.scroll-cue,.focus-number,.credential-note,.timeline-marker span{font-size:11px}
 .credential-icon{font-size:18px}
+
+/* Persistent bilingual language switch */
+.language-switch{display:flex;align-items:center;gap:7px;margin-left:auto;margin-right:24px;white-space:nowrap;font-size:12px;color:#9aa1a5}
+.language-option{border:0;background:transparent;color:#68737e;padding:8px 3px;cursor:pointer;font-size:12px;font-weight:700;border-bottom:2px solid transparent}
+.language-option:hover,.language-option.active{color:#138c72}
+.language-option.active{border-bottom-color:#138c72}
+@media(max-width:850px){.topbar{gap:12px}.language-switch{margin-left:auto;margin-right:0}.nav-links{gap:18px}}
+@media(max-width:640px){.topbar{width:calc(100% - 32px);height:76px}.language-switch{margin-left:auto;gap:4px}.language-option{font-size:11px;padding:7px 2px}.menu-toggle{display:block;border:1px solid var(--line);background:transparent;padding:8px 10px;font-size:11px;white-space:nowrap}.nav-links{display:none;position:absolute;top:75px;left:0;right:0;background:var(--paper);padding:18px;border:1px solid var(--line);flex-direction:column;align-items:stretch;gap:18px}.nav-links.open{display:flex}}
